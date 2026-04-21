@@ -1,9 +1,7 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
+
 import './App.css'
 import data from './data.json'
+import ArtistList from './components/ArtistList'
 
 
 
@@ -12,7 +10,10 @@ function App() {
 
   return (
     <>
-    
+    <div>
+      <h1>Artists</h1>
+      <ArtistList artists={data.artists}/>
+    </div>
     </>
   )
 }
