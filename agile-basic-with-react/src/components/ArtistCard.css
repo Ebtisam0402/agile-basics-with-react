@@ -1,0 +1,14 @@
+.artist-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.artist-card h3 {
+    margin-top: 0;
+}
+
+.artist-card p {
+    margin: 5px 0;
+}
